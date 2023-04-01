@@ -3,7 +3,7 @@ project:
 
 website:
   title: "fonogram"
-  site-url: fonogram.nu
+  site-url: www.fonogram.nu
   navbar:
     right:
       - blog.qmd

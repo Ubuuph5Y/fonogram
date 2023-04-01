@@ -1,1 +1,1 @@
-Sitemap: https://fonogram.nu/sitemap.xml
+Sitemap: www.fonogram.nu/sitemap.xml
