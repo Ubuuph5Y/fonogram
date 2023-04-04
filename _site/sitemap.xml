@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fonogram.nu/blog.html</loc>
-    <lastmod>2023-04-01T12:00:02.186Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fonogram.nu/posts/pale_honey/pale_honey_post.html</loc>
-    <lastmod>2023-04-01T11:50:21.262Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fonogram.nu/posts/post_punk_beverly_kills_isolated_youth/post_punk_beverly_kills_isolated_youth.html</loc>
-    <lastmod>2023-04-01T11:50:21.558Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fonogram.nu/index.html</loc>
-    <lastmod>2023-04-01T12:00:13.671Z</lastmod>
-  </url>
-  <url>
     <loc>fonogram.nu/blog.html</loc>
-    <lastmod>2023-04-01T16:48:51.371Z</lastmod>
+    <lastmod>2023-04-04T16:43:52.950Z</lastmod>
+  </url>
+  <url>
+    <loc>fonogram.nu/posts/pale_honey/pale_honey_post.html</loc>
+    <lastmod>2023-04-04T16:43:53.290Z</lastmod>
+  </url>
+  <url>
+    <loc>fonogram.nu/posts/post_punk_beverly_kills_isolated_youth/post_punk_beverly_kills_isolated_youth.html</loc>
+    <lastmod>2023-04-04T16:43:53.574Z</lastmod>
   </url>
   <url>
     <loc>fonogram.nu/index.html</loc>
-    <lastmod>2023-04-01T16:49:04.775Z</lastmod>
-  </url>
-  <url>
-    <loc>www.fonogram.nu/index.html</loc>
-    <lastmod>2023-04-01T16:53:28.561Z</lastmod>
-  </url>
-  <url>
-    <loc>www.fonogram.nu/blog.html</loc>
-    <lastmod>2023-04-04T16:27:52.964Z</lastmod>
+    <lastmod>2023-04-04T16:43:53.830Z</lastmod>
   </url>
 </urlset>
