@@ -4,7 +4,7 @@ project:
 
 website:
   title: "fonogram"
-  site-url: fonogram.nu
+  site-url: https://ubuuph5y.github.io.
   navbar:
     right:
       - blog.qmd
