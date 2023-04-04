@@ -1,9 +1,10 @@
 project:
   type: website
+output-dir: docs
 
 website:
   title: "fonogram"
-  site-url: www.fonogram.nu
+  site-url: fonogram.nu
   navbar:
     right:
       - blog.qmd
