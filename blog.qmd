@@ -1,5 +1,5 @@
 ---
-title: "fonogram"
+title: "inlägg"
 listing:
   contents: posts
   sort: "date desc"
