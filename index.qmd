@@ -5,4 +5,4 @@ about:
   template: jolla
 ---
 
-Musikbloggen fonogram är berättelser om musikaliska upplevelser från en skivsamling som ständigt ökar i omfång. Texter i bloggen bygger på ljud som alstras från runda skivor som snurrar. En och annan etta och nolla kommer att leta sig in mellan raderna. Dock ligger tonvikten i första han på vinyl och därefter cd.
+Musikbloggen fonogram är berättelser om musikaliska upplevelser från en skivsamling. Samlingen som ständigt ökar i omfång och vet inte riktigt vart den ska ta vägen. Texter i bloggen bygger på ljud som alstras från runda skivor som snurrar. En och annan etta och nolla kommer att leta sig in mellan raderna. Dock ligger tonvikten i första han på vinyl och därefter cd.
