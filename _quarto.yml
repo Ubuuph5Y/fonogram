@@ -6,7 +6,7 @@ website:
   title: "fonogram"
   site-url: https://ubuuph5y.github.io.
   navbar:
-    right:
+   right:
       - blog.qmd
       
 format:
