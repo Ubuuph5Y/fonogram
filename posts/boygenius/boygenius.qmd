@@ -1,7 +1,6 @@
 ---
 title: "boygenius"
 format: html
-
 ---
 
 ## the record -- ett urklipp mellan att leva som millenial och z
