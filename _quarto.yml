@@ -1,18 +1,18 @@
 project:
   type: website
 
-
 website:
   title: "fonogram"
   site-url: https://ubuuph5y.github.io.
   navbar:
-   right:
-      - blog.qmd
+    right:
+      - text: innehåll
+        href: blog.qmd
       
 format:
   html:
     theme: solar
-    css: styles.css
+    
 
 editor: visual
 
