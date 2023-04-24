@@ -28,10 +28,6 @@ library(knitr)
 #| include: false
 
 
-Sys.setenv(SPOTIFY_CLIENT_ID = '2b3f671cfe064cd29c2dbe3445f75c1a')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '4e6e5711757b46f68cbed9bf7a43c5ff')
-
-
 access_token <- get_spotify_access_token()
 ```
 

@@ -1,0 +1,16 @@
+{
+  "hash": "39eb6b773cecc2c30907f0aa37a2a2ce",
+  "result": {
+    "markdown": "---\ntitle: \"Musikanalys the record och empire builder\"\nformat: html\ndate: 05-24-23\nparams:\n show_code: \"no\"\n show_plot: \"yes\"\neditor: visual\neditor_options:\n  chunk_output_type: console\n---\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n\n\nJag skrev att jag hade ett lyssningsintryck att boygenius *the record* låter en aning forcerad. Efter en stunds lyssning in på skivan blir upplevelsen lite ansträngd eller en smula stressad. Jag använde Laura Gibsons *Empire Builder* som referens och tycker att den andas mer och är mer avslappnad i lyssningen. För att visuellt beskriva lyssningsintrycket använde jag mig att metadata från Spotify. Det är värt att notera att jämförelsen är en illustration över att jag hörde skillnad mellan lyssningen av skivorna och ska inte ses som en absolut sanning.\n\n### Mastring för olika format kan påverka lyssningsintrycket\n\nFörst några avgränsningar innan vi dyker ned i analysen. Jag har lyssnat på *the record* och *Empire Builder* vinyl. Mastring av skivor kan skilja sig mellan olika fysiska format. Spotify följer en standard för normalisering av ljudnivån för att lyssnaren ska få en jämn ljudnivå vid uppspelning. Den normaliseringen kan skilja sig från uppspelning från mastringen som är lagd på en vinylskiva. Sammantaget kan det här påverka mina intryck.\n\n### Metadata från Spotify bekräftar lyssningsintrycket\n\nSammantaget går det att säga att *the record* har mastrats lite hårdare för Spotify jämfört med *Empire Builder*. Det indikerar det lite forcerade ljudet och att det påverkar det konstnärliga uttrycket i skivan. Linjerna i spridningsdiagrammet visar skillnaden i elyssningsintrycket mellan skivorna. Laura Gibsons *Empire Builder* har en lägre ljudnivå (loudness), vilket indikerar att skivan har en större dynamik jämfört med *the record*. Därav att mitt intryck av att skivan andas i högre utsträckning och låter mer avslappnat.\n\n### Energin i *the record* bidrar till ett forcerat intryck\n\n*Empire builder* har ett lägre värde på x-axelns värden för Energy. Det värdet talar om hur snabb, högljudd och skrikig skivan är. Underliggande faktorer som påverkar värden för Energin i en skiva är dynamiken och ljudnivån. Det talar för mitt intrycket att *the record* känns forcerad och har en smula brist på dynamik och att ljudbilden är koncentrerad till mitten av högtalarna.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](musikanalys_boygenius_laura_gibson_files/figure-html/scatterplot_loudness_energy-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "musikanalys_boygenius_laura_gibson_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
