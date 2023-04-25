@@ -19,29 +19,9 @@ library(spotifyr)
 library(plotly)
 library(ggjoy)
 library(knitr)
+library(hablar)
 
 
-
-```
-
-```{r access_token}
-#| include: false
-
-Sys.setenv(SPOTIFY_CLIENT_ID = '2b3f671cfe064cd29c2dbe3445f75c1a')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '4e6e5711757b46f68cbed9bf7a43c5ff')
-
-
-access_token <- get_spotify_access_token()
-```
-
-```{r import_artister}
-#| include: true
-#| warning: false
-#| message: false
-#| echo: false
-boygenius <- get_artist_audio_features('boygenius') %>% as_tibble()
-
-laura_gibson <- get_artist_audio_features("laura gibson") %>% as_tibble()
 ```
 
 ```{r färgvektor }
@@ -63,22 +43,6 @@ solar_farg <- c("#b58900",
 
 ```
 
-```{r import_data}
-#| echo: false
-#| include: false
-#| warning: false
-#| message: false
-
-boy <- boygenius %>% filter(album_name == "the record") %>% 
-                     select(track_number, track_name, artist_name, energy, contains("ty"), contains("ness"), valence) 
-
-empire_builder <- laura_gibson %>% filter(album_name == "Empire Builder") %>% 
-                                   select(track_number, track_name,energy, artist_name, contains("ty"), contains("ness"), valence) %>% 
-                                   slice(1:10)
-
-                                 
-```
-
 ```{r dataframe}
 #| echo: false
 #| include: false
@@ -86,7 +50,7 @@ empire_builder <- laura_gibson %>% filter(album_name == "Empire Builder") %>%
 #| message: false
 # skapar en df av artisterna
 
-loudness_df <- full_join(boy, empire_builder) %>%  as_tibble() 
+load(file = "loudness_df.Rda")
  
 ```
 
@@ -116,11 +80,12 @@ Först några avgränsningar innan vi dyker ned i analysen. Jag har lyssnat på 
 
 ### Metadata från Spotify bekräftar lyssningsintrycket
 
-Sammantaget går det att säga att *the record* har mastrats lite hårdare för Spotify jämfört med *Empire Builder*. Det indikerar det lite forcerade ljudet och att det påverkar det konstnärliga uttrycket i skivan. Linjerna i spridningsdiagrammet visar skillnaden i elyssningsintrycket mellan skivorna. Laura Gibsons *Empire Builder* har en lägre ljudnivå (loudness), vilket indikerar att skivan har en större dynamik jämfört med *the record*. Därav att mitt intryck av att skivan andas i högre utsträckning och låter mer avslappnat.
+Linjerna i spridningsdiagrammet visar skillnaden i lyssningsintrycket mellan skivorna. Sammantaget går det att säga att *the record* har mastrats lite hårdare för Spotify jämfört med *Empire Builder*. Det indikerar det lite forcerade ljudet och att det påverkar det
+konstnärliga uttrycket i skivan. Laura Gibsons *Empire Builder* har en lägre ljudnivå (loudness), vilket indikerar att skivan har en större dynamik jämfört med *the record*. Därav att mitt intryck av att skivan andas i högre utsträckning och låter mer avslappnat.
 
 ### Energin i *the record* bidrar till ett forcerat intryck
 
-*Empire builder* har ett lägre värde på x-axelns värden för Energy. Det värdet talar om hur snabb, högljudd och skrikig skivan är. Underliggande faktorer som påverkar värden för Energin i en skiva är dynamiken och ljudnivån. Det talar för mitt intrycket att *the record* känns forcerad och har en smula brist på dynamik och att ljudbilden är koncentrerad till mitten av högtalarna.
+*Empire builder* har ett lägre värde på x-axelns värden för Energy. Det värdet talar om hur snabb, högljudd och intensiv inspelningen är. Underliggande faktorer som påverkar värden för Energin i en skiva är dynamiken och ljudnivån. Det talar för mitt intrycket att *the record* känns forcerad och har en smula brist på dynamik och att ljudbilden är koncentrerad till mitten av högtalarna.
 
 ```{r scatterplot_loudness_energy, include=TRUE}
 #| echo: false
